@@ -16,7 +16,7 @@ public void draw()
   drawBranches(320,380,100,3*Math.PI/2);
 } 
 public void mousePressed() {
-  branchAngle = Math.random()*.4;
+  branchAngle = Math.random()*.4+.1;
   drawBranches(320,380,100,3*Math.PI/2);
   redraw();
 }
@@ -43,10 +43,4 @@ public void drawBranches(int x,int y, double branchLength, double angle)
     drawBranches(endX2, endY2, branchLength, angle2);
   }
 } 
-/*void mouseDragged() 
-{
-  COLOR_VALUE = COLOR_VALUE + 5;
-  if (COLOR_VALUE > 255) {
-    COLOR_VALUE = 0;
-  }
-}*/
+
