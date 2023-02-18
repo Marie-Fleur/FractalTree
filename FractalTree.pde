@@ -1,7 +1,7 @@
 
 private double fractionLength = .8; 
 private int smallestBranch = 6; 
-private double branchAngle = .5;  
+private double branchAngle = .2;  
 int COLOR_VALUE = 0;
 public void setup() 
 {   
